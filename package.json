@@ -1,22 +1,12 @@
 {
-  "name": "levelup-jozi",
+  "name": "application-name",
   "version": "0.0.1",
-  "description": "Boilerplate to get you started for LevelUP course I.",
-  "main": "server.js",
+  "private": true,
   "scripts": {
-    "test": "grunt test"
+    "start": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/sw00/levelup-jozi.git"
-  },
-  "keywords": [
-    "levelup"
-  ],
-  "author": "Sett Wai <sett.wai@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sw00/levelup-jozi/issues"
-  },
-  "homepage": "https://github.com/sw00/levelup-jozi"
+  "dependencies": {
+    "express": "3.4.8",
+    "hjs": "*"
+  }
 }
